@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr;
 }
@@ -48,5 +47,21 @@ header {
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
+    display: grid;
+    overflow-y: scroll;
+}
+.mainContent article {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+.articleURL {
+    display: grid;
+    place-items: center;
+}
+
+.articleURL a {
+    border: 1px solid black;
+    width: 50%;
+    padding: 5px;
 }
 
