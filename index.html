@@ -1,17 +1,105 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="index.css">
-    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsForYou</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="src/index.js"></script>
 </head>
-
 <body>
+    <header>
+        <section class="logoSection">
+            <h1>NewsForYou</h1>
+        </section>
 
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
-    <p> My new paragraph</p>
+        <section class="editorialBoard">
+            <article>Edit Article</article>
+            <article>Edit Article</article>
+            <article>Edit Article</article>
+        </section>
+    </header>
+
+    <main>
+        <section class="filterFeed">
+            <form>
+                <label for="search">Search:
+                </label>
+                <input type="text" id="search">
+            </form>
+            <h2>Search by Category:</h2>
+            <form>
+                <label for="news">News</label>
+                <input type="checkbox" id= "news">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id= "sports">
+                <label for="culture">Culture</label>
+                <input type="checkbox" id= "culture">
+                <label for="opinion">Opinion</label>
+                <input type="checkbox" id= "opinion">
+            </form>
+        </section>
+    
+        <section class="mainContent">
+            <article>
+                <div class="articleContent">
+                    <h2>Article Title</h2>
+                    <h3>Author, date, time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
+                </div>
+                <div class="articleURL">
+                    <a href="">Navigate to article page</a>
+                </div>
+                <hr>
+            </article>
+            <article>
+                <div class="articleContent">
+                    <h2>Article Title</h2>
+                    <h3>Author, date, time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
+                </div>
+                <div class="articleURL">
+                    <a href="">Navigate to article page</a>
+                </div>
+                <hr>
+            </article>
+            <article>
+                <div class="articleContent">
+                    <h2>Article Title</h2>
+                    <h3>Author, date, time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
+                </div>
+                <div class="articleURL">
+                    <a href="">Navigate to article page</a>
+                </div>
+                <hr>
+            </article>
+            <article>
+                <div class="articleContent">
+                    <h2>Article Title</h2>
+                    <h3>Author, date, time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
+                </div>
+                <div class="articleURL">
+                    <a href="">Navigate to article page</a>
+                </div>
+                <hr>
+            </article>
+            <article>
+                <div class="articleContent">
+                    <h2>Article Title</h2>
+                    <h3>Author, date, time</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
+                </div>
+                <div class="articleURL">
+                    <a href="">Navigate to article page</a>
+                </div>
+                <hr>
+            </article>
+        </section>
+    </main>
+    
 
 </body>
-
 </html>
