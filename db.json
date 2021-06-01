@@ -1,0 +1,122 @@
+{
+    "toBePushlished": [
+        {
+            "id": 1,
+            "title": "GPs urged to refuse to hand over patient details to NHS Digital",
+            "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
+            "content": "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.
+
+            All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.
+            
+            Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.
+            
+            NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.
+            
+            The Guardian view on medical records: NHS data grab needs explaining
+            Read more
+            But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records.
+            
+            Doctors fear that the automatic transfer of medical records will undermine the trust patients have in them, according to Dr Ameen Kamlana, one of the Tower Hamlets GPs taking part in the action.
+            
+            
+            “There’s an immense amount of good that can come from responsible and secure use of public data, public health records,” Kamlana said. “However, our issue here with this particular proposal is that it’s been rushed through. There has been no public information campaign to inform the public about the plans, and in order to allow them to decide for themselves whether they are happy about it.
+            
+            “Essentially what’s being asked for here is people’s entire health record, so everything that we’ve coded in people’s records from the time of their birth to the time of their death, including their physical, mental and sexual health, including their health-related concerns with family and work and including their drug and alcohol history.
+            
+            “Essentially all your most intimate private details of your life is being asked to be handed over and we were concerned that the public aren’t aware of what’s being done.”
+            
+            An email sent out to about 100 surgeries on Monday night by Dr Osman Bhatti, the chief clinical information officer for the NHS North East London clinical commissioning group, and co-signed by Dr Jackie Applebee, the chair of Tower Hamlets local medical committee, called on doctors to withhold data until they are satisfied patients have had enough time to consider the plan.
+            
+            “NHS Digital have not publicised this in the way that I would have expected,” Bhatti wrote. “If you feel that you have not had enough time to inform your patients and that they have had a reasonable time to object, then this sharing agreement should not be enabled.”
+            
+            However patients who want to opt out of the centralisation of their health records have to fill in a form, available on the NHS Digital website, and return it to their GP by 23 June.
+            
+            Bhatti told the Guardian he expected the email to be circulated to about 270 surgeries. “The aim from this is to buy some time essentially, to say we need a campaign to make the public aware this is happening with this data,” he said.
+            
+            “Ultimately patients may decide: OK that’s fine, I’m not worried about it; or some might say: yeah, I want to object and stop my data being being released. But fundamentally it’s just enabling patients to be aware that this is happening, to make an informed choice, and that there’s no breakdown in patient-doctor relationship going forward.”
+            
+            NHS Digital has been contacted for comment.",
+            "date": "01/06/2021",
+            "time": "12.39",
+            "author": "Damien Gayle",
+            "pillars": "news",
+            "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
+            "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419",
+        },
+        {
+            "id": 2,
+            "title": "",
+            "content": "",
+            "date": "",
+            "time": "",
+            "author": "",
+            "pillars": "",
+            "article_URL": "",
+            "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793",
+        },
+        {
+            "id": 1,
+            "title": "",
+            "content": "",
+            "date": "",
+            "time": "",
+            "author": "",
+            "pillars": "",
+            "article_URL": "",
+            "picture_URL": "",
+        },
+        {
+            "id": 1,
+            "title": "",
+            "content": "",
+            "date": "",
+            "time": "",
+            "author": "",
+            "pillars": "",
+            "article_URL": "",
+            "picture_URL": "",
+        },
+        {
+            "id": 1,
+            "title": "",
+            "content": "",
+            "date": "",
+            "time": "",
+            "author": "",
+            "pillars": "",
+            "article_URL": "",
+            "picture_URL": "",
+        },
+        {
+            "id": 1,
+            "title": "",
+            "content": "",
+            "date": "",
+            "time": "",
+            "author": "",
+            "pillars": "",
+            "article_URL": "",
+            "picture_URL": "",
+        },
+    ],
+    "addresses": [
+        {
+            "id": 1,
+            "street": "10 Downing Street",
+            "city": "London",
+            "postCode": "SW1A 2AB"
+        },
+        {
+            "id": 2,
+            "street": "Buckingham Palace",
+            "city": "London",
+            "postCode": "SW1A 1AA"
+        },
+        {
+            "street": "9 Middle Lane",
+            "city": "Teddington",
+            "postCode": "TW11 0HQ",
+            "id": 3
+        }
+    ]
+}
