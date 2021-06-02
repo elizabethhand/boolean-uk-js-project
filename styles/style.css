@@ -71,4 +71,10 @@ header {
 .editingSection form {
    display: grid;
 }
-
+.filterFeed form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+label {
+display: block;
+}
