@@ -36,13 +36,10 @@ function listenForSearchBar() {
     searchFormEl.addEventListener("submit", function(e) {
         e.preventDefault()
 
-        console.log(e)
-
         let form = e.target 
         state.filters.search = form.search.value
-        renderArticles()
+        renderFeedArticles()
 
-        console.log(state.filters.search)
     })
 }
 listenForSearchBar()
@@ -59,12 +56,87 @@ function getFeedArticlesFromServer () {
 }
 getFeedArticlesFromServer()
     .then(function() {
-        
         addPillarsToState()
         renderPillarCheckboxes()
-        renderArticles()
+        renderFeedArticles()
     })
 
+
+function addPillarsToState() {
+    let pillarsArray = state.published.map(function(article) {
+        return article.pillars
+    })
+    pillarsArray = [...new Set(pillarsArray)].sort()
+    state.filters.pillars = pillarsArray
+}
+function renderPillarCheckboxes() {
+    let formEl = document.querySelector(".pillarsForm")
+    for (const pillar of state.filters.pillars) {
+        const labelEl = createEl("label")
+        labelEl.setAttribute("for", pillar.toLowerCase())
+        labelEl.innerText = pillar
+
+        const inputEl = createEl("input")
+        inputEl.setAttribute("type", "checkbox")
+        inputEl.setAttribute("id", pillar.toLowerCase())
+        inputEl.setAttribute("value", pillar.toLowerCase())
+
+        //Adding checked filter boxes to state
+        inputEl.addEventListener("change", function() {
+            if(inputEl.checked) {
+                state.filters.checkedPillars.push(inputEl.value)
+            }
+            if(!inputEl.checked) {
+                state.filters.checkedPillars = state.filters.checkedPillars.filter(function(pillar) {
+                    return pillar !== inputEl.value
+                })
+            }
+            renderFeedArticles()
+            
+        })
+        labelEl.append(inputEl)
+        formEl.append(labelEl)
+    }
+}
+function renderFeedArticles() {
+    mainContentSection.innerHTML = ""
+
+    const feedContainerEl = createEl("div")
+    feedContainerEl.setAttribute("class", "feedContainer")
+
+    let articlesToBeFiltered = state.published
+    let filteredArticles = []
+
+    let checkboxes = document.querySelectorAll("input[type=checkbox]")
+    let checkboxValues = []
+
+    for (checkbox of checkboxes) {
+        if(checkbox.checked) {
+            checkboxValues.push(checkbox.value)
+        } 
+    }// HERE
+    
+
+    if(state.filters.search === "") filteredArticles = articlesToBeFiltered
+    if(state.filters.search !==  "") {
+        filteredArticles = articlesToBeFiltered.filter(function(article) {
+            return article.title.includes(state.filters.search) || article.content.includes(state.filters.search)
+        })
+    }
+    if(state.filters.checkedPillars.length !== 0) {
+        filteredArticles = filteredArticles.filter(function(article) {
+            return article.pillars.toLowerCase().includes(state.filters.checkedPillars)
+        }) //HERE
+    }
+    for (article of filteredArticles) {
+        articleHTML = renderFeedArticle(article)
+        feedContainerEl.append(articleHTML)
+    }
+    
+        
+
+    mainContentSection.append(feedContainerEl)
+}
 function renderFeedArticle(article) {
     const articleEl = createEl("article")
     articleEl.setAttribute("class", "article")
@@ -99,86 +171,4 @@ function renderFeedArticle(article) {
     articleEl.append(articleContentContainerEl, articleURLContainerEl, linebreakEl)
     return articleEl
     
-}
-function addPillarsToState() {
-    let pillarsArray = state.published.map(function(article) {
-        return article.pillars
-    })
-    pillarsArray = [...new Set(pillarsArray)].sort()
-    state.filters.pillars = pillarsArray
-}
-function renderPillarCheckboxes() {
-    let formEl = document.querySelector(".pillarsForm")
-    for (const pillar of state.filters.pillars) {
-        const labelEl = createEl("label")
-        labelEl.setAttribute("for", pillar.toLowerCase())
-        labelEl.innerText = pillar
-
-        const inputEl = createEl("input")
-        inputEl.setAttribute("type", "checkbox")
-        inputEl.setAttribute("id", pillar.toLowerCase())
-        inputEl.setAttribute("value", pillar.toLowerCase())
-
-        //Adding checked filter boxes to state
-        inputEl.addEventListener("change", function() {
-            if(inputEl.checked) {
-                state.filters.checkedPillars.push(inputEl.value)
-                console.log(state.filters.checkedPillars)
-            }
-            if(!inputEl.checked) {
-                state.filters.checkedPillars = state.filters.checkedPillars.filter(function(pillar) {
-                    return pillar !== inputEl.value
-                })
-                console.log(state.filters.checkedPillars)
-            }
-            renderArticles()
-            
-        })
-        labelEl.append(inputEl)
-        formEl.append(labelEl)
-    }
-}
-
-function renderArticles() {
-    mainContentSection.innerHTML = ""
-
-    const feedContainerEl = createEl("div")
-    feedContainerEl.setAttribute("class", "feedContainer")
-
-    let articlesToBeFiltered = state.published
-    let filteredArticles = []
-
-    let checkboxes = document.querySelectorAll("input[type=checkbox]")
-    console.log(checkboxes)
-    let checkboxValues = []
-
-    for (checkbox of checkboxes) {
-        if(checkbox.checked) {
-            console.log(checkbox.value)
-            checkboxValues.push(checkbox.value)
-        } 
-    }// HERE
-    
-
-    if(state.filters.search === "") filteredArticles = articlesToBeFiltered
-    if(state.filters.search !==  "") {
-        filteredArticles = articlesToBeFiltered.filter(function(article) {
-            return article.title.includes(state.filters.search) || article.content.includes(state.filters.search)
-        })
-        console.log(filteredArticles)
-    }
-    if(state.filters.checkedPillars.length !== 0) {
-        filteredArticles = filteredArticles.filter(function(article) {
-            return article.pillars.toLowerCase().includes(state.filters.checkedPillars)
-        }) //HERE
-        console.log(filteredArticles)
-    }
-    for (article of filteredArticles) {
-        articleHTML = renderFeedArticle(article)
-        feedContainerEl.append(articleHTML)
-    }
-    
-        
-
-    mainContentSection.append(feedContainerEl)
 }
