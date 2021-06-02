@@ -1,0 +1,4 @@
+{
+    "/posts": "/data?_expand=user",
+    "/posts/*": "/data/$1?_expand=user"
+}

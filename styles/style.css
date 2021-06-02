@@ -5,7 +5,7 @@
 }
 body{
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 150px 600px;
 }
 main {
     display: grid;
@@ -19,18 +19,43 @@ header {
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
+
 }
-.editorialBoard {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-gap: 10px;
-    place-content: center;
+
+.editorialBoard{
     background-color: #1B98E0;
+
+}
+
+.editorialBoard .title{
+    display:grid;
+    place-items:center;
+}
+
+.edit-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 170px);
+    grid-gap: 10px;
     padding: 10px;
 }
 .editorialBoard article {
     background-color: #E8F1F2;
     border: black 1px solid;
+
+    width:170px;
+    height:100px;
+}
+
+.editorialBoard .edit-tile-btn{
+    position:relative;
+    bottom:23px;
+    left:5px;
+}
+
+.editorialBoard .delete-tile-btn{
+    position:relative;
+    bottom:23px;
+    left:75px;
 }
 
 .logoSection {
@@ -47,9 +72,9 @@ header {
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
-    display: grid;
     overflow-y: scroll;
 }
+
 .mainContent article {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -65,3 +90,29 @@ header {
     padding: 5px;
 }
 
+.editContainer{
+    display:grid;
+    gap:10px;
+}
+
+.titleInput{
+    height:30px;
+}
+
+.articleInput{
+    height:380px;
+}
+
+.deleteArticleBtn{
+    position:relative;
+    width:70px;
+    bottom:520px;
+    left:900px;
+}
+
+.publishArticleBtn{
+    position:relative;
+    width: 70px;
+    display:grid;
+    left:900px;
+}
