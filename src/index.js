@@ -9,7 +9,7 @@ RENDERING FEED
 /*
 FILTERING
 Search:
-1. Have an event listener on theb submit of the search input
+1. Have an event listener on the submit of the search input
 2. Filter the publishesd articles with the search string and add to state 
 3. Render the filtered articles to the page
 */
@@ -42,8 +42,6 @@ function listenForSearchBar() {
 
     })
 }
-listenForSearchBar()
-
 function getFeedArticlesFromServer () {
     return fetch(`http://localhost:3000/published`)
             .then(function(response) {
@@ -56,21 +54,21 @@ function getFeedArticlesFromServer () {
 }
 getFeedArticlesFromServer()
     .then(function() {
+        listenForSearchBar()
         addPillarsToState()
         renderPillarCheckboxes()
         renderFeedArticles()
     })
-
-
 function addPillarsToState() {
     let pillarsArray = state.published.map(function(article) {
         return article.pillars
     })
     pillarsArray = [...new Set(pillarsArray)].sort()
-    state.filters.pillars = pillarsArray
+    state.filters.pillars = pillarsArray //TODO: CHANGE TO IMMUTABLE
 }
 function renderPillarCheckboxes() {
     let formEl = document.querySelector(".pillarsForm")
+
     for (const pillar of state.filters.pillars) {
         const labelEl = createEl("label")
         labelEl.setAttribute("for", pillar.toLowerCase())
@@ -87,9 +85,7 @@ function renderPillarCheckboxes() {
                 state.filters.checkedPillars.push(inputEl.value)
             }
             if(!inputEl.checked) {
-                state.filters.checkedPillars = state.filters.checkedPillars.filter(function(pillar) {
-                    return pillar !== inputEl.value
-                })
+                state.filters.checkedPillars = state.filters.checkedPillars.filter(pillar =>  pillar !== inputEl.value)
             }
             renderFeedArticles()
             
