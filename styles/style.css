@@ -6,6 +6,7 @@
 }
 body {
     height: 100vh;
+    grid-template-rows: 150px 600px;
 }
 main {
     display: grid;
@@ -21,17 +22,71 @@ header {
     padding: 10px;
 }
 .editorialBoard {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
-    grid-gap: 10px;
-    place-content: center;
     background-color: #1B98E0;
-    padding: 10px;
 }
-.editorialBoard article {
+.editorialBoard .title{
+    display:grid;
+    place-items:center;
+}
+.edit-tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 170px);
+    grid-gap: 10px;
+    padding: 10px;
+
+    font-size:12px;
+}
+
+.edit-tile h3{
+    padding:5px;
+}
+.editorialBoard h3 {
     background-color: #E8F1F2;
     border: black 1px solid;
+
+    width:170px;
+    height:100px;
 }
+
+.editorialBoard .edit-tile-btn{
+    position:relative;
+    bottom:23px;
+    left:5px;
+}
+
+.editorialBoard .delete-tile-btn{
+    position:relative;
+    bottom:23px;
+    left:75px;
+}
+
+.editContainer{
+    display:grid;
+    gap:10px;
+    }
+    
+    .titleInput{
+        height:30px;
+    }
+    
+    .textInput{
+        height:500px;
+    }
+    
+    .publishArticleBtn{
+        position:relative;
+        width: 50px;
+        left:890px;
+    }
+    
+    .deleteArticleBtn{
+        position:relative;
+        width:50px;
+        left:200px;
+        top:100px;
+    }
+
+
 
 .logoSection {
     display: grid;
