@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NewsForYou</title>
     <link rel="stylesheet" href="styles/style.css">
-    <script src="src/index.js"></script>
+    <script defer src="src/index.js"></script>
 </head>
 <body>
     <header>
@@ -23,38 +23,20 @@
 
     <main>
         <section class="filterFeed">
-            <form>
-                <label for="search">Search:
+            <h2>Filters</h2>
+            <form class="searchbarForm">
+                <label for="search"><h3>Search:</h3>
                 </label>
-                <input type="text" id="search">
+                <input class="searchbar"type="text" id="search">
             </form>
-            <h2>Search by Category:</h2>
-            <form>
-                <label for="news">News</label>
-                <input type="checkbox" id= "news">
-                <label for="sports">Sports</label>
-                <input type="checkbox" id= "sports">
-                <label for="culture">Culture</label>
-                <input type="checkbox" id= "culture">
-                <label for="opinion">Opinion</label>
-                <input type="checkbox" id= "opinion">
+            <h3>Search by Category:</h3>
+            <form class="pillarsForm">
+                
             </form>
         </section>
     
         <section class="mainContent">
-        <div class="feedContainer">
-                <article class="article">
-                <div class="articleContent">
-                    <h2>Article Title</h2>
-                    <h3>Author, date, time</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, dolor necessitatibus quam veniam error, assumenda soluta, nihil incidunt ipsum impedit consequuntur. Quam ipsum sapiente animi ipsam, in facere mollitia explicabo. </p>
-                </div>
-                <div class="articleURL">
-                    <a href="">Navigate to article page</a>
-                </div>
-                <hr>
-            </article>
-        </div>
+        
         </section>
     </main>
     
