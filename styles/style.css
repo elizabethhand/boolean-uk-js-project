@@ -38,8 +38,14 @@ header {
     grid-template-columns: repeat(auto-fit, 170px);
     grid-gap: 10px;
     padding: 10px;
+
+    font-size:12px;
 }
-.editorialBoard article {
+
+.edit-tile h3{
+    padding:5px;
+}
+.editorialBoard h3 {
     background-color: #E8F1F2;
     border: black 1px solid;
 
@@ -58,6 +64,34 @@ header {
     bottom:23px;
     left:75px;
 }
+
+.editContainer{
+    display:grid;
+    gap:10px;
+    }
+    
+    .titleInput{
+        height:30px;
+    }
+    
+    .textInput{
+        height:500px;
+    }
+    
+    .publishArticleBtn{
+        position:relative;
+        width: 50px;
+        left:890px;
+    }
+    
+    .deleteArticleBtn{
+        position:relative;
+        width:50px;
+        left:200px;
+        top:100px;
+    }
+
+
 
 .logoSection {
     display: grid;

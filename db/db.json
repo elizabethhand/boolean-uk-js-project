@@ -1,194 +1,193 @@
 {
-    "toBePushlished": [
-        {
-            "id": 1,
-            "title": "GPs urged to refuse to hand over patient details to NHS Digital",
-            "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
-            "content": [
-                "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.",
-                "All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.",
-                "Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.",
-                "NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.",
-                "But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records."
-            ],
-            "date": "01/06/2021",
-            "time": "12.39",
-            "author": "Damien Gayle",
-            "pillars": "news",
-            "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
-            "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419"
-        },
-        {
-            "id": 2,
-            "title": "Lions have plenty in reserve but Gatland must manage them well",
-            "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
-            "content": [
-                "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
-                "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
-                "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
-                "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
-                "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
-            ],
-            "date": "01/06/2021",
-            "time": "12.00",
-            "author": "Gerard Meagher",
-            "pillars": "sports",
-            "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
-            "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
-        },
-        {
-            "id": 3,
-            "title": "GPs urged to refuse to hand over patient details to NHS Digital",
-            "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
-            "content": [
-                "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.",
-                "All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.",
-                "Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.",
-                "NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.",
-                "But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records."
-            ],
-            "date": "01/06/2021",
-            "time": "12.39",
-            "author": "Damien Gayle",
-            "pillars": "news",
-            "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
-            "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419"
-        },
-        {
-            "id": 4,
-            "title": "Lions have plenty in reserve but Gatland must manage them well",
-            "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
-            "content": [
-                "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
-                "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
-                "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
-                "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
-                "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
-            ],
-            "date": "01/06/2021",
-            "time": "12.00",
-            "author": "Gerard Meagher",
-            "pillars": "sports",
-            "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
-            "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
-        },
-        {
-            "id": 5,
-            "title": "GPs urged to refuse to hand over patient details to NHS Digital",
-            "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
-            "content": [
-                "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.",
-                "All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.",
-                "Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.",
-                "NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.",
-                "But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records."
-            ],
-            "date": "01/06/2021",
-            "time": "12.39",
-            "author": "Damien Gayle",
-            "pillars": "news",
-            "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
-            "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419"
-        },
-        {
-            "id": 6,
-            "title": "Lions have plenty in reserve but Gatland must manage them well",
-            "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
-            "content": [
-                "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
-                "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
-                "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
-                "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
-                "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
-            ],
-            "date": "01/06/2021",
-            "time": "12.00",
-            "author": "Gerard Meagher",
-            "pillars": "sports",
-            "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
-            "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
-        }
-    ],
-    "published": [
-        {
-            "id": 1,
-            "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
-            "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
-            "content": [
-                " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
-                "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
-                "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
-                "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
-                "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
-                "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
-                "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
-            ],
-            "date": "01/06/2021",
-            "time": "10.20",
-            "author": "Simon Usborne",
-            "pillars": "lifestyle",
-            "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
-            "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
-        },
-        {
-            "id": 1,
-            "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
-            "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
-            "content": [
-                " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
-                "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
-                "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
-                "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
-                "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
-                "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
-                "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
-            ],
-            "date": "01/06/2021",
-            "time": "10.20",
-            "author": "Simon Usborne",
-            "pillars": "lifestyle",
-            "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
-            "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
-        },
-        {
-            "id": 1,
-            "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
-            "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
-            "content": [
-                " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
-                "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
-                "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
-                "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
-                "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
-                "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
-                "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
-            ],
-            "date": "01/06/2021",
-            "time": "10.20",
-            "author": "Simon Usborne",
-            "pillars": "lifestyle",
-            "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
-            "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
-        },
-        {
-            "id": 1,
-            "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
-            "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
-            "content": [
-                " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
-                "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
-                "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
-                "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
-                "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
-                "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
-                "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
-            ],
-            "date": "01/06/2021",
-            "time": "10.20",
-            "author": "Simon Usborne",
-            "pillars": "lifestyle",
-            "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
-            "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
-        }
-    ]
+  "toBePushlished": [
+    {
+      "id": 2,
+      "title": "Lions have plenty in reserve but Gatland must manage them well",
+      "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
+      "content": [
+        "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
+        "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
+        "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
+        "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
+        "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
+      ],
+      "date": "01/06/2021",
+      "time": "12.00",
+      "author": "Gerard Meagher",
+      "pillars": "sports",
+      "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
+      "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
+    },
+    {
+      "id": 3,
+      "title": "GPs urged to refuse to hand over patient details to NHS Digital",
+      "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
+      "content": [
+        "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.",
+        "All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.",
+        "Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.",
+        "NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.",
+        "But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records."
+      ],
+      "date": "01/06/2021",
+      "time": "12.39",
+      "author": "Damien Gayle",
+      "pillars": "news",
+      "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
+      "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419"
+    },
+    {
+      "id": 4,
+      "title": "Lions have plenty in reserve but Gatland must manage them well",
+      "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
+      "content": [
+        "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
+        "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
+        "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
+        "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
+        "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
+      ],
+      "date": "01/06/2021",
+      "time": "12.00",
+      "author": "Gerard Meagher",
+      "pillars": "sports",
+      "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
+      "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
+    },
+    {
+      "id": 5,
+      "title": "GPs urged to refuse to hand over patient details to NHS Digital",
+      "tagline": "Senior doctors call on colleagues not to share personal data, in effort to buy time to raise awareness of plans",
+      "content": [
+        "Senior GPs have called on colleagues to refuse to hand over patients’ personal data to NHS Digital, in a move they hope will buy time to raise awareness of plans to place all medical records in England on a central database.",
+        "All 36 doctors’ surgeries in Tower Hamlets, east London, have already agreed to withhold the data when collection begins on 1 July, the Guardian understands. An email has been circulated to about 100 practices across north-east London calling on them to also consider whether the data collection is legitimate, with the hope that it will spread to many more. The email makes clear the refusal to share the data is technically a breach of the Health and Social Care Act 2012.",
+        "Privacy campaigners and doctors have raised the alarm about plans, led by the Department of Health and Social Care, to put the medical histories of more than 55 million patients into a new database where they will be made available to the private sector and other researchers.",
+        "NHS Digital has said the new General Practice Data for Planning and Research (GPDPR) system will reduce the burden on GP practices and create a valuable data source for pharmaceutical and public policy research. The agency says the data, which will include information on patients’ physical, mental and sexual health, will be anonymised.",
+        "But critics warn anonymisation can be easily reversed. And they argue the six weeks between the announcement of the plan and the beginning of collection has not given patients enough time to understand what is happening to their medical records."
+      ],
+      "date": "01/06/2021",
+      "time": "12.39",
+      "author": "Damien Gayle",
+      "pillars": "news",
+      "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
+      "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419"
+    },
+    {
+      "id": 6,
+      "title": "Lions have plenty in reserve but Gatland must manage them well",
+      "tagline": "The British & Irish Lions coach must bear in mind the backlash from the ‘Geography Six’ on the New Zealand tour",
+      "content": [
+        "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
+        "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
+        "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
+        "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
+        "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
+      ],
+      "date": "01/06/2021",
+      "time": "12.00",
+      "author": "Gerard Meagher",
+      "pillars": "sports",
+      "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
+      "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793"
+    }
+  ],
+  "published": [
+    {
+      "id": 1,
+      "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
+      "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
+      "content": [
+        " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
+        "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
+        "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
+        "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
+        "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
+        "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
+        "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
+      ],
+      "date": "01/06/2021",
+      "time": "10.20",
+      "author": "Simon Usborne",
+      "pillars": "lifestyle",
+      "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
+      "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
+    },
+    {
+      "id": 1,
+      "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
+      "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
+      "content": [
+        " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
+        "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
+        "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
+        "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
+        "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
+        "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
+        "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
+      ],
+      "date": "01/06/2021",
+      "time": "10.20",
+      "author": "Simon Usborne",
+      "pillars": "lifestyle",
+      "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
+      "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
+    },
+    {
+      "id": 1,
+      "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
+      "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
+      "content": [
+        " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
+        "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
+        "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
+        "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
+        "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
+        "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
+        "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
+      ],
+      "date": "01/06/2021",
+      "time": "10.20",
+      "author": "Simon Usborne",
+      "pillars": "lifestyle",
+      "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
+      "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
+    },
+    {
+      "id": 1,
+      "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
+      "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
+      "content": [
+        " Hamish says he’s not at all vain. He wouldn’t consider getting his teeth whitened. He has an average life, with a happy marriage and two children. But when he caught sight of the top of his head in a family photo about eight years ago, something consumed him.",
+        "“I just saw this massive receding hairline and it triggered intense emotions,” he says from his home in Edinburgh, where he works in marketing. “I can feel my heart rate has increased just talking about it. It somehow threatens my identity so much that the ground feels shaky.”",
+        "For years Hamish, who is in his mid 40s and prefers not to share his real name, did little about his loss. He was busy, and paralysing shame mingled with dread. But the pandemic changed that. “I’ve had too much time to think, too much time to look in the mirror,” he says. “And throw into that the whole Zoom malarkey, where I was constantly faced with the last thing I wanted to see … It took over my life and I thought: ‘Look, I’m going to get this fixed.’”",
+        "Lockdowns have presented a challenge and opportunity to men who are worried about hair loss. Many looked down from unforgiving mirrors and webcams to healthy bank balances. With offices closed, and nights out and holidays on hold, social confinement has also provided the perfect cover for recovery, out of sight. The result is that the procedure is now in unprecedented demand.",
+        "The British Association of Hair Restoration Surgery (Bahrs) estimates that the country has about 100 doctors doing hair transplant surgery via more than 200 clinics – 10 times the number there was a decade ago. Transplant tourism has also exploded, particularly in Turkey, where clinics offer package deals including hotels for as little as £1,000 – half the rate at even the cheapest UK clinics. But pandemic travel restrictions have concentrated demand at clinics in this country. Dr Richard Rogers, a veteran surgeon at the Westminster Clinic in London, has a packed diary, and reports a 50% pandemic bounce in inquiries.",
+        "Many surgeons do impeccable work. But an increasing number of clinics operate in a follicular wild west, where competition is fierce and regulation is patchy. They tend to prioritise tough sales tactics and search engine optimisation over training and well-equipped treatment rooms. And now they are exploiting the pandemic and the male insecurity it has fuelled.",
+        "“Relationships have broken down, jobs have been lost and people want to better themselves,” says Spencer Stevenson, a mentor for balding men, who is known online as Spex. He says inquiries to his own site have quadrupled in the past year – up to 50 messages a day. He says a culture of peer permission is taking root, challenging the stigma associated with balding cures; everyone seems to have a mate of a mate who has had a transplant. “But I feel really sorry for new patients,” he adds. “You’ve got vulnerable, naive men walking into this brutal place.”"
+      ],
+      "date": "01/06/2021",
+      "time": "10.20",
+      "author": "Simon Usborne",
+      "pillars": "lifestyle",
+      "article_URL": "https://www.theguardian.com/fashion/2021/jun/01/my-hairline-threatened-my-identity-so-much-the-ground-felt-shaky-why-hair-transplants-are-booming",
+      "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
+    },
+    {
+      "title": "Lions have plenty in reserve but Gatland must manage them well",
+      "content": [
+        "The season that never sleeps has four more rounds to go but Warren Gatland does not appear concerned by the prospect of being forced into changing his British & Irish Lions squad before their departure for South Africa. On the contrary, he is resigned to it.",
+        "History shows that, on average, more than eight replacements have been called on a tour since 2009 – six once the squad has departed – and there is no reason to suggest this year will be any different. Indeed, given the ceaseless schedule since last August and the attrition rate on the last tour of South Africa 12 years ago, there is every chance it will be even more.",
+        "At the weekend the Gloucester centre Chris Harris suffered a hand injury while there was a potential citing for the Northampton fly-half Dan Biggar. As things stand both are still bound for South Africa but Gatland is only too aware that the 37 he selected last month are unlikely to all make it to the departure lounge on 27 June. “We’ve got to realise we’ve got two or three players that aren’t going to make the tour because they’ve got injuries,” he saidin April. “I presume between now and when we get on the plane and fly out to South Africa, we’re going to pick up one or two others as well.”",
+        "Those comments come to mind because Harris’s injury coincided with eye-catching displays from Manu Tuilagi and Henry Slade over the weekend – both potential replacements should the Scot have to withdraw but two entirely different players and completely contrasting characters. AWhile there is little to argue about Gatland’s track record as Lions head coach, his approach to latecomers – whether it be due to injury, suspension or to provide extra cover – has not always stood up to scrutiny.",
+        "With the rule-proving exception of Alex Corbisiero, Gatland raised eyebrows in 2013 by calling on Brad Barritt, Billy Twelvetrees, Christian Wade and the semi-retired Shane Williams and sticking them all into the same backline in the defeat by the Brumbies. Four years later he was faced with accusations of devaluing the Lions jersey when selecting the Geography Six."
+      ],
+      "author": "Gerard Meagher",
+      "date": "01/06/2021",
+      "time": "12.00",
+      "pillars": "sports",
+      "article_URL": "https://www.theguardian.com/sport/2021/jun/01/lions-have-plenty-in-reserve-but-gatland-must-manage-them-well",
+      "picture_URL": "https://i.guim.co.uk/img/media/13c3d065a9f104907dc4787067508f7f499277f3/0_125_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=493b8caf861b29df237902ab590ba793",
+      "id": 2
+    }
+  ]
 }
