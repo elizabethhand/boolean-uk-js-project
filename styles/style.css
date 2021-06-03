@@ -6,15 +6,16 @@
     
 }
 body {
-    grid-template-rows: 150px 600px;
-    
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    max-height: 100vh;
 }
 main {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
-    
+    overflow-y: scroll;
 }
 
 header {
@@ -22,6 +23,11 @@ header {
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
+    height: 200px;
+}
+.logoContainer {
+    display: grid;
+    place-content: center;
 }
 #newsLogo {
     width: 100px;
@@ -42,13 +48,20 @@ header {
 
     font-size:12px;
 }
+.edit-tile {
+    /* background-color: #006494; */
+    
+}
 
 .edit-tile h3{
     padding:5px;
 }
 .editorialBoard h3 {
     background-color: #E8F1F2;
-    border: black 1px solid;
+    border: rgb(73, 73, 73) 1px solid;
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 0.5rem 0.2rem rgba(0, 0, 0, 0.486);
 
     width:170px;
     height:100px;
@@ -69,28 +82,28 @@ header {
 .editContainer{
     display:grid;
     gap:10px;
-    }
-    
-    .titleInput{
-        height:30px;
-    }
-    
-    .textInput{
-        height:500px;
-    }
-    
-    .publishArticleBtn{
-        position:relative;
-        width: 50px;
-        left:890px;
-    }
-    
-    .deleteArticleBtn{
-        position:relative;
-        width:50px;
-        left:200px;
-        top:100px;
-    }
+}
+
+.titleInput{
+    height:30px;
+}
+
+.textInput{
+    height:500px;
+}
+
+.publishArticleBtn{
+    position:relative;
+    width: 50px;
+    left:890px;
+}
+
+.deleteArticleBtn{
+    position:relative;
+    width:50px;
+    left:200px;
+    top:100px;
+}
 
 
 
@@ -105,6 +118,9 @@ header {
     background-color: #006494;
     padding: 10px;
     color: #E8F1F2;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 .smallLine {
     width: 20%;
@@ -117,28 +133,23 @@ section.filterFeed > * {
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
-
 }
 .feedContainer > * {
     padding: 20px 0;
 }
 .feedContainer {
     display: grid;
-    overflow-y: scroll;
     color: rgb(53, 53, 53);
 }
 .feedContainer h3 {
     font-size: small;
     color: rgb(82, 82, 82);
-    padding-bottom: 10px;
-
-
-    overflow-y: scroll;
-    
+    padding-top: 10px;
+    padding-bottom: 20px;
+  
 }
 .feedContainer {
     display: grid;
-
 }
 .mainContent .article {
     display: grid;
