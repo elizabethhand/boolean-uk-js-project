@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NewsForYou</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <script defer src="src/index.js"></script>
-</head>
-<body>
-    <header>
-        <section class="logoSection">
-            <h1>NewsForYou</h1>
-            <div class="logoContainer">
-                <svg version="1.1" id="newsLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="newsLogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
@@ -113,41 +100,4 @@
 </g>
 <g>
 </g>
-            </svg>
-            </div>
-        </section>
-
-        <section class="editorialBoard">
-                <div class=title>
-                    <h2> Editoral Board</h2>
-                </div>
-                <div class="edit-tiles">
-                </div>
-                </div>
-            </section>
-        </header>
-
-    <main>
-        <section class="filterFeed">
-            <h2>Filters</h2>
-            
-            <form class="searchbarForm">
-                <label for="search"><h3>Search:</h3>
-                </label>
-                <input class="searchbar"type="text" id="search">
-            </form>
-          
-            <h3>Search by Category:</h3>
-            <form class="pillarsForm">
-                
-            </form>
-        </section>
-    
-        <section class="mainContent">
-        
-        </section>
-    </main>
-    
-
-</body>
-</html>
+</svg>

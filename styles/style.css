@@ -3,16 +3,18 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
 }
 body {
-    height: 100vh;
     grid-template-rows: 150px 600px;
+    
 }
 main {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
+    
 }
 
 header {
@@ -21,12 +23,16 @@ header {
     gap: 5px;
     padding: 10px;
 }
+#newsLogo {
+    width: 100px;
+}
 .editorialBoard {
     background-color: #1B98E0;
 }
 .editorialBoard .title{
     display:grid;
     place-items:center;
+    color: #E8F1F2;
 }
 .edit-tiles {
     display: grid;
@@ -95,19 +101,44 @@ header {
     padding: 10px;
 }
 .filterFeed {
-    width: 300px;
+    width: 230px;
     background-color: #006494;
     padding: 10px;
+    color: #E8F1F2;
+}
+.smallLine {
+    width: 20%;
+
+}
+section.filterFeed > * {
+    padding: 5px 0;
+    
 }
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
+
+}
+.feedContainer > * {
+    padding: 20px 0;
+}
+.feedContainer {
+    display: grid;
+    overflow-y: scroll;
+    color: rgb(53, 53, 53);
+}
+.feedContainer h3 {
+    font-size: small;
+    color: rgb(82, 82, 82);
+    padding-bottom: 10px;
+
 
     overflow-y: scroll;
     
 }
 .feedContainer {
     display: grid;
+
 }
 .mainContent .article {
     display: grid;
