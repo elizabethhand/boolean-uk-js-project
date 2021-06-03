@@ -145,7 +145,7 @@ function renderFeedArticle(article) {
     articleTitleEl.innerText = article.title
 
     const articleInfoEl = createEl("h3")
-    articleInfoEl.innerText = `Author: ${article.author}, Date: ${article.date}, Time: ${article.time}` 
+    articleInfoEl.innerText = `Author: ${article.author}, ${article.date}, ${article.time}` 
 
     let fullContent = ""
     for (const paragraph of article.content) {
