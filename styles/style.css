@@ -102,11 +102,12 @@ header {
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
+
+    overflow-y: scroll;
     
 }
 .feedContainer {
     display: grid;
-    overflow-y: scroll;
 }
 .mainContent .article {
     display: grid;
@@ -117,9 +118,9 @@ header {
     place-items: center;
 }
 
-.articleURL a {
+.articleURL button {
     border: 1px solid black;
-    width: 50%;
+    width: 80px;
     padding: 5px;
 }
 

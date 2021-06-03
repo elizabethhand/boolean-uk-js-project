@@ -31,37 +31,37 @@ let state = {
     }
 }
 function setState(keyToUpdate) {
-    state = {...state, keyToUpdate}
+    state = { ...state, keyToUpdate }
 }
 function listenForSearchBar() {
-    searchFormEl.addEventListener("submit", function(e) {
+    searchFormEl.addEventListener("submit", function (e) {
         e.preventDefault()
 
-        let form = e.target 
+        let form = e.target
         state.filters.search = form.search.value
         renderFeedArticles()
 
     })
 }
-function getFeedArticlesFromServer () {
+function getFeedArticlesFromServer() {
     return fetch(`http://localhost:3000/published`)
-            .then(function(response) {
+        .then(function (response) {
             return response.json()
-            })
-            .then(function(data) {
+        })
+        .then(function (data) {
             state.published = data
             return data
-            })
+        })
 }
 getFeedArticlesFromServer()
-    .then(function() {
+    .then(function () {
         listenForSearchBar()
         addPillarsToState()
         renderPillarCheckboxes()
         renderFeedArticles()
     })
 function addPillarsToState() {
-    let pillarsArray = state.published.map(function(article) {
+    let pillarsArray = state.published.map(function (article) {
         return article.pillars
     })
     pillarsArray = [...new Set(pillarsArray)].sort()
@@ -81,15 +81,15 @@ function renderPillarCheckboxes() {
         inputEl.setAttribute("value", pillar.toLowerCase())
 
         //Adding checked filter boxes to state
-        inputEl.addEventListener("change", function() {
-            if(inputEl.checked) {
+        inputEl.addEventListener("change", function () {
+            if (inputEl.checked) {
                 state.filters.checkedPillars.push(inputEl.value)
             }
-            if(!inputEl.checked) {
-                state.filters.checkedPillars = state.filters.checkedPillars.filter(pillar =>  pillar !== inputEl.value)
+            if (!inputEl.checked) {
+                state.filters.checkedPillars = state.filters.checkedPillars.filter(pillar => pillar !== inputEl.value)
             }
             renderFeedArticles()
-            
+
         })
         labelEl.append(inputEl)
         formEl.append(labelEl)
@@ -108,20 +108,20 @@ function renderFeedArticles() {
     let checkboxValues = []
 
     for (checkbox of checkboxes) {
-        if(checkbox.checked) {
+        if (checkbox.checked) {
             checkboxValues.push(checkbox.value)
-        } 
+        }
     }// HERE
-    
 
-    if(state.filters.search === "") filteredArticles = articlesToBeFiltered
-    if(state.filters.search !==  "") {
-        filteredArticles = articlesToBeFiltered.filter(function(article) {
+
+    if (state.filters.search === "") filteredArticles = articlesToBeFiltered
+    if (state.filters.search !== "") {
+        filteredArticles = articlesToBeFiltered.filter(function (article) {
             return article.title.includes(state.filters.search) || article.content.includes(state.filters.search)
         })
     }
-    if(state.filters.checkedPillars.length !== 0) {
-        filteredArticles = filteredArticles.filter(function(article) {
+    if (state.filters.checkedPillars.length !== 0) {
+        filteredArticles = filteredArticles.filter(function (article) {
             return article.pillars.toLowerCase().includes(state.filters.checkedPillars)
         }) //HERE
     }
@@ -129,12 +129,13 @@ function renderFeedArticles() {
         articleHTML = renderFeedArticle(article)
         feedContainerEl.append(articleHTML)
     }
-    
-        
+
+
 
     mainContent.append(feedContainerEl)
 }
 function renderFeedArticle(article) {
+    console.log(article)
     const articleEl = createEl("article")
     articleEl.setAttribute("class", "article")
 
@@ -145,29 +146,44 @@ function renderFeedArticle(article) {
     articleTitleEl.innerText = article.title
 
     const articleInfoEl = createEl("h3")
-    articleInfoEl.innerText = `Author: ${article.author}, Date: ${article.date}, Time: ${article.time}` 
+    articleInfoEl.innerText = `Author: ${article.author}, Date: ${article.date}, Time: ${article.time}`
 
-    let fullContent = ""
-    for (const paragraph of article.content) {
-        fullContent = fullContent + paragraph + "\n\n"
-    }
-    
-    const articleContentEl = createEl("p")
-    articleContentEl.innerText = fullContent
+
+
+    // const articleContentEl = createEl("p")
+    // articleContentEl.innerText = fullContent
 
     const articleURLContainerEl = createEl("div")
     articleURLContainerEl.setAttribute("class", "articleURL")
 
-    const URLLinkEL = createEl("a")
-    URLLinkEL.setAttribute("href", article["article_URL"])
-    URLLinkEL.innerText = "Navigate To Article Page"
+    const seeMoreBtn = document.createElement('button')
+    seeMoreBtn.innerText = "See more"
     const linebreakEl = createEl("hr")
 
-    articleContentContainerEl.append(articleTitleEl, articleInfoEl, articleContentEl)
-    articleURLContainerEl.append(URLLinkEL)
+    seeMoreBtn.addEventListener("click", function () {
+        let fullContent = ""
+        for (const paragraph of article.content) {
+            fullContent = fullContent + paragraph + "\n\n"
+        }
+        mainContent.innerText = " "
+
+        let title = document.createElement('h2')
+        title.innerText = article.title
+
+        const articleInfoEl = createEl("h3")
+        articleInfoEl.innerText = `Author: ${article.author}, Date: ${article.date}, Time: ${article.time}`
+
+        let articleContent = document.createElement('p')
+        articleContent.innerText = fullContent
+
+        mainContent.append(title, articleInfoEl, articleContent)
+    })
+
+    articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
+    articleURLContainerEl.append(seeMoreBtn)
     articleEl.append(articleContentContainerEl, articleURLContainerEl, linebreakEl)
     return articleEl
-    
+
 }
 
 
