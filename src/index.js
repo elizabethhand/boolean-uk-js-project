@@ -148,11 +148,6 @@ function renderFeedArticle(article) {
     const articleInfoEl = createEl("h3")
     articleInfoEl.innerText = `Author: ${article.author}, Date: ${article.date}, Time: ${article.time}`
 
-
-
-    // const articleContentEl = createEl("p")
-    // articleContentEl.innerText = fullContent
-
     const articleURLContainerEl = createEl("div")
     articleURLContainerEl.setAttribute("class", "articleURL")
 
@@ -167,6 +162,15 @@ function renderFeedArticle(article) {
         }
         mainContent.innerText = " "
 
+        let backBtn = document.createElement('button')
+        backBtn.innerText = "Back"
+        backBtn.classList = "backBtn"
+
+        backBtn.addEventListener("click", function () {
+            renderFeedArticles()
+
+        })
+
         let title = document.createElement('h2')
         title.innerText = article.title
 
@@ -176,7 +180,7 @@ function renderFeedArticle(article) {
         let articleContent = document.createElement('p')
         articleContent.innerText = fullContent
 
-        mainContent.append(title, articleInfoEl, articleContent)
+        mainContent.append(backBtn, title, articleInfoEl, articleContent)
     })
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
@@ -257,16 +261,6 @@ function listenToEditBtn() {
     let articleLabel = document.createElement('label')
     articleLabel.innerText = "Article"
 
-    // let articleInput = document.createElement('input')
-    // articleInput.setAttribute("class", "articleInput")
-
-
-
-
-    // 
-
-
-
     let deleteBtn = document.createElement('button')
     deleteBtn.setAttribute("class", "deleteArticleBtn")
     deleteBtn.innerText = "Delete"
@@ -289,10 +283,6 @@ function listenToEditBtn() {
     let textArea = document.createElement('textarea')
     textArea.setAttribute("rows", "25")
 
-    // for (const article of state.selectedArticle.content) {
-    // console.log(article)
-
-    // textArea.innerText = article
     console.log(state.selectedArticle.content)
     let newArray = state.selectedArticle.content.join("\n\n")
     console.log(newArray)

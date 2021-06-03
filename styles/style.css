@@ -124,6 +124,10 @@ header {
     padding: 5px;
 }
 
+.backBtn{
+    padding:5px;
+}
+
 .editingSection form {
    display: grid;
 }
