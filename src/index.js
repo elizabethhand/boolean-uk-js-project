@@ -181,7 +181,48 @@ function renderFeedArticle(article) {
         let articleContent = document.createElement('p')
         articleContent.innerText = fullContent
 
-        mainContent.append(backBtn, title, articleInfoEl, articleContent)
+        //COMMENTS SECTION
+        const commentsSectionEl = createEl("div")
+        commentsSectionEl.setAttribute("class", "commentsSection")
+
+        const listEl = createEl("ul")
+
+        const commentsSectionTitle = createEl("h3")
+        commentsSectionTitle.innerText = "Comments"
+
+        let comments = ["Informative", "Cool!"]
+
+        for(comment of comments) {
+            const listItemEl = createEl("li")
+            
+            const userSectionEl = createEl("div")
+            userSectionEl.setAttribute("class", "userSection")
+            const userImageEl = createEl("img")
+            userImageEl.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png")
+            userImageEl.setAttribute("alt", "user profile picture")
+            const usernameEl = createEl("span")
+            usernameEl.innerText = "Username"
+
+            const commentEl = createEl("span")
+            commentEl.setAttribute("class", "comment")
+            commentEl.innerText = comment
+
+            userSectionEl.append(userImageEl, usernameEl)
+            listItemEl.append(userSectionEl, commentEl)
+            listEl.append(listItemEl)
+        }
+        const commentFormEl = createEl("form")
+        commentFormEl.setAttribute("class", "commentForm")
+
+        const commentFormInputEl = createEl("input")
+        commentFormInputEl.setAttribute("type", "text")
+        commentFormInputEl.setAttribute("class", "commentInput")
+        commentFormInputEl.setAttribute("placeholder", "Add a comment...")
+
+        commentFormEl.append(commentFormInputEl)
+
+        commentsSectionEl.append(commentsSectionTitle, listEl, commentFormEl)
+        mainContent.append( title, articleInfoEl, articleContent, backBtn,commentsSectionEl)
     })
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
@@ -310,8 +351,6 @@ function addtoPublishedArticles() {
         })
     })
 }
-
-
 
 function getArticleTitles() {
     return fetch(`http://localhost:3000/toBePushlished`)
