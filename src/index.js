@@ -191,8 +191,8 @@ function renderFeedArticle(article) {
 
         //COMMENTS SECTION
         let commentsSectionEl = renderComments(article)
-        mainContent.append( title, articleInfoEl, articleContent, backBtn,commentsSectionEl)
-        
+        mainContent.append(title, articleInfoEl, articleContent, backBtn, commentsSectionEl)
+
     })
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
@@ -211,9 +211,9 @@ function renderComments(article) {
     commentsSectionTitle.innerText = "Comments"
 
     function renderComments(article) {
-        for(commentObj of article.comments) {
+        for (commentObj of article.comments) {
             const listItemEl = createEl("li")
-            
+
             const userSectionEl = createEl("div")
             userSectionEl.setAttribute("class", "userSection")
             const userImageEl = createEl("img")
@@ -221,11 +221,11 @@ function renderComments(article) {
             userImageEl.setAttribute("alt", "user profile picture")
             const usernameEl = createEl("span")
             usernameEl.innerText = commentObj.username
-    
+
             const commentEl = createEl("span")
             commentEl.setAttribute("class", "comment")
             commentEl.innerText = commentObj.comment
-    
+
             userSectionEl.append(userImageEl, usernameEl)
             listItemEl.append(userSectionEl, commentEl)
             listEl.append(listItemEl)
@@ -259,29 +259,29 @@ function renderComments(article) {
         fetch(`http://localhost:3000/comments`, {
             method: "POST",
             headers: {
-                "Content-Type" : "application/json"
+                "Content-Type": "application/json"
             },
             body: JSON.stringify(commentToAdd)
         })
-        .then(function (response) {
-            if(response.ok) {
-                getFeedArticlesFromServer()
-                .then(function (params) {
-                    console.log(state.published)
-                    commentFormInputEl.value = ""
-                })
-                .then(function () {
-                    listEl.innerHTML = ""
-                    let articleId = article.id
-                    console.log(state.published[articleId - 1])
-                    renderComments(state.published[articleId - 1])
-                })
-            }
-            else {
-                alert("Error")
-            }
-        })
-        
+            .then(function (response) {
+                if (response.ok) {
+                    getFeedArticlesFromServer()
+                        .then(function (params) {
+                            console.log(state.published)
+                            commentFormInputEl.value = ""
+                        })
+                        .then(function () {
+                            listEl.innerHTML = ""
+                            let articleId = article.id
+                            console.log(state.published[articleId - 1])
+                            renderComments(state.published[articleId - 1])
+                        })
+                }
+                else {
+                    alert("Error")
+                }
+            })
+
     })
 
     commentFormEl.append(commentFormInputEl, commentPostButtonEl)
@@ -289,7 +289,7 @@ function renderComments(article) {
     commentsSectionEl.append(commentsSectionTitle, listEl, commentFormEl)
 
     return commentsSectionEl
-    
+
 }
 
 function renderEditorialBoard() {
@@ -327,6 +327,7 @@ function renderTiles(article) {
     deleteBtn.addEventListener("click", function () {
         state.selectedArticle = article
         deleteproposedArticle()
+        renderEditorialBoard()
     })
 
     container.append(title, editBtn, deleteBtn)
