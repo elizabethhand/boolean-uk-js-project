@@ -50,6 +50,7 @@ function getFeedArticlesFromServer() {
         })
         .then(function (data) {
             state.published = data
+            console.log(state.published)
             return data
         })
 }
@@ -135,7 +136,6 @@ function renderFeedArticles() {
     mainContent.append(feedContainerEl)
 }
 function renderFeedArticle(article) {
-    console.log(article)
     const articleEl = createEl("article")
     articleEl.setAttribute("class", "article")
 
@@ -182,47 +182,9 @@ function renderFeedArticle(article) {
         articleContent.innerText = fullContent
 
         //COMMENTS SECTION
-        const commentsSectionEl = createEl("div")
-        commentsSectionEl.setAttribute("class", "commentsSection")
-
-        const listEl = createEl("ul")
-
-        const commentsSectionTitle = createEl("h3")
-        commentsSectionTitle.innerText = "Comments"
-
-        let comments = ["Informative", "Cool!"]
-
-        for(comment of comments) {
-            const listItemEl = createEl("li")
-            
-            const userSectionEl = createEl("div")
-            userSectionEl.setAttribute("class", "userSection")
-            const userImageEl = createEl("img")
-            userImageEl.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png")
-            userImageEl.setAttribute("alt", "user profile picture")
-            const usernameEl = createEl("span")
-            usernameEl.innerText = "Username"
-
-            const commentEl = createEl("span")
-            commentEl.setAttribute("class", "comment")
-            commentEl.innerText = comment
-
-            userSectionEl.append(userImageEl, usernameEl)
-            listItemEl.append(userSectionEl, commentEl)
-            listEl.append(listItemEl)
-        }
-        const commentFormEl = createEl("form")
-        commentFormEl.setAttribute("class", "commentForm")
-
-        const commentFormInputEl = createEl("input")
-        commentFormInputEl.setAttribute("type", "text")
-        commentFormInputEl.setAttribute("class", "commentInput")
-        commentFormInputEl.setAttribute("placeholder", "Add a comment...")
-
-        commentFormEl.append(commentFormInputEl)
-
-        commentsSectionEl.append(commentsSectionTitle, listEl, commentFormEl)
+        let commentsSectionEl = renderComments(article)
         mainContent.append( title, articleInfoEl, articleContent, backBtn,commentsSectionEl)
+        
     })
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
@@ -231,7 +193,96 @@ function renderFeedArticle(article) {
     return articleEl
 
 }
+function renderComments(article) {
+    const commentsSectionEl = createEl("div")
+    commentsSectionEl.setAttribute("class", "commentsSection")
 
+    const listEl = createEl("ul")
+
+    const commentsSectionTitle = createEl("h3")
+    commentsSectionTitle.innerText = "Comments"
+
+    function renderComments(article) {
+        for(commentObj of article.comments) {
+            const listItemEl = createEl("li")
+            
+            const userSectionEl = createEl("div")
+            userSectionEl.setAttribute("class", "userSection")
+            const userImageEl = createEl("img")
+            userImageEl.setAttribute("src", commentObj.profilePicURL)
+            userImageEl.setAttribute("alt", "user profile picture")
+            const usernameEl = createEl("span")
+            usernameEl.innerText = commentObj.username
+    
+            const commentEl = createEl("span")
+            commentEl.setAttribute("class", "comment")
+            commentEl.innerText = commentObj.comment
+    
+            userSectionEl.append(userImageEl, usernameEl)
+            listItemEl.append(userSectionEl, commentEl)
+            listEl.append(listItemEl)
+        }
+    }
+    renderComments(article)
+
+    const commentFormEl = createEl("form")
+    commentFormEl.setAttribute("class", "commentForm")
+
+    const commentFormInputEl = createEl("input")
+    commentFormInputEl.setAttribute("type", "text")
+    commentFormInputEl.setAttribute("class", "commentInput")
+    commentFormInputEl.setAttribute("placeholder", "Add a comment...")
+
+    const commentPostButtonEl = createEl("button")
+    commentPostButtonEl.setAttribute("type", "submit")
+    commentPostButtonEl.setAttribute("class", "submitCommentButton")
+    commentPostButtonEl.innerText = "Post"
+
+    commentFormEl.addEventListener("submit", function (event) {
+        event.preventDefault()
+
+        commentToAdd = {
+            "publishedId": article.id,
+            "username": "Me",
+            "comment": commentFormInputEl.value,
+            "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+        }
+
+        fetch(`http://localhost:3000/comments`, {
+            method: "POST",
+            headers: {
+                "Content-Type" : "application/json"
+            },
+            body: JSON.stringify(commentToAdd)
+        })
+        .then(function (response) {
+            if(response.ok) {
+                getFeedArticlesFromServer()
+                .then(function (params) {
+                    console.log(state.published)
+                    commentFormInputEl.value = ""
+                })
+                .then(function () {
+                    listEl.innerHTML = ""
+                    let articleId = article.id
+                    console.log(state.published[articleId - 1])
+                    renderComments(state.published[articleId - 1])
+                })
+            }
+            else {
+                alert("Error")
+            }
+        })
+        
+    })
+
+    commentFormEl.append(commentFormInputEl, commentPostButtonEl)
+
+    commentsSectionEl.append(commentsSectionTitle, listEl, commentFormEl)
+
+    return commentsSectionEl
+    
+}
 
 function renderEditorialBoard() {
     let tileContainer = document.querySelector('.edit-tiles')
@@ -281,9 +332,6 @@ function deleteproposedArticle() {
         .then(res => res.text()) // or res.json()
         .then(res => console.log(res))
 }
-
-
-
 function listenToEditBtn() {
     mainContent.innerText = ""
     let container = document.createElement('form')
@@ -358,7 +406,6 @@ function getArticleTitles() {
             return response.json()
         }).then(function (titles) {
             state.toBePublished = titles
-            console.log(state.toBePublished)
             renderEditorialBoard()
         })
 }
