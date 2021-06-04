@@ -132,7 +132,7 @@ function renderFeedArticles() {
     if (state.filters.checkedPillars.length !== 0) {
         filteredArticles = filteredArticles.filter(function (article) {
             return article.pillars.toLowerCase().includes(state.filters.checkedPillars)
-        }) //HERE
+        })
     }
     for (article of filteredArticles) {
         articleHTML = renderFeedArticle(article)
