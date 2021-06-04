@@ -120,7 +120,7 @@ function renderFeedArticles() {
         if (checkbox.checked) {
             checkboxValues.push(checkbox.value)
         }
-    }// HERE
+    }
 
 
     if (state.filters.search === "") filteredArticles = articlesToBeFiltered
