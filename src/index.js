@@ -18,7 +18,7 @@ function createEl(tag) {
 }
 let filterFeedSection = document.querySelector(".filterFeed")
 let mainContent = document.querySelector(".mainContent")
-let searchFormEl = document.querySelector(".searchbarForm")
+let searchFormEl = document.querySelector(".searchBarForm")
 let editArticleBtn = document.querySelector(".edit-tile-btn")
 
 let state = {
@@ -147,14 +147,14 @@ function renderFeedArticle(article) {
 
     const articleInfoEl = createEl("h3")
 
-    articleInfoEl.innerText = `Author: ${article.author}, ${article.date}, ${article.time}` 
+    articleInfoEl.innerText = `Author: ${article.author}, ${article.date}, ${article.time}`
 
     const articleURLContainerEl = createEl("div")
     articleURLContainerEl.setAttribute("class", "articleURL")
 
     const seeMoreBtn = document.createElement('button')
     seeMoreBtn.innerText = "See more"
-    const linebreakEl = createEl("hr")
+    // const linebreakEl = createEl("hr")
 
     seeMoreBtn.addEventListener("click", function () {
         let fullContent = ""
@@ -189,7 +189,7 @@ function renderFeedArticle(article) {
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
     articleURLContainerEl.append(seeMoreBtn)
-    articleEl.append(articleContentContainerEl, articleURLContainerEl, linebreakEl)
+    articleEl.append(articleContentContainerEl, articleURLContainerEl)
     return articleEl
 
 }
@@ -285,6 +285,7 @@ function renderComments(article) {
 }
 
 function renderEditorialBoard() {
+    console.log(state.toBePublished)
     let tileContainer = document.querySelector('.edit-tiles')
 
     for (const article of state.toBePublished) {
@@ -329,9 +330,12 @@ function deleteproposedArticle() {
     fetch(`http://localhost:3000/toBePushlished/${state.selectedArticle.id}`, {
         method: 'DELETE',
     })
-        .then(res => res.text()) // or res.json()
+        .then(res => res.text())
         .then(res => console.log(res))
 }
+
+
+
 function listenToEditBtn() {
     mainContent.innerText = ""
     let container = document.createElement('form')
@@ -364,11 +368,12 @@ function listenToEditBtn() {
     publishBtn.innerText = "Publish"
 
     publishBtn.addEventListener("click", function () {
+
         addtoPublishedArticles()
     })
 
-    mainContent.append(container)
-    container.append(title, titleLabel, titleInput, articleLabel, deleteBtn, publishBtn)
+    mainContent.append(container, deleteBtn, publishBtn)
+    container.append(title, titleLabel, titleInput, articleLabel)
 
     let textArea = document.createElement('textarea')
     textArea.setAttribute("rows", "25")
