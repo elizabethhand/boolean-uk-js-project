@@ -97,13 +97,13 @@ header {
 .publishArticleBtn{
     position:relative;
     width: 50px;
-    left:1050px;
+    left:1070px;
 }
 
 .deleteArticleBtn{
     position:relative;
     width:50px;
-    left:1050px;
+    left:1120px;
     bottom:500px;
 }
 
