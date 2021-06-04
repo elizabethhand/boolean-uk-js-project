@@ -30,6 +30,7 @@ header {
 .logoContainer {
     display: grid;
     place-content: center;
+    border: none;
 }
 #newsLogo {
     width: 100px;
