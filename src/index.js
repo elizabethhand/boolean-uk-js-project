@@ -30,6 +30,14 @@ let state = {
         checkedPillars: []
     }
 }
+function listenForHome() {
+    let homeButtonEl = document.querySelector(".logoContainer")
+
+    homeButtonEl.addEventListener("click", function () {
+        renderFeedArticles()
+    })
+}
+listenForHome()
 function setState(keyToUpdate) {
     state = { ...state, keyToUpdate }
 }
