@@ -2,7 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
     
 }
 body {
@@ -157,6 +158,55 @@ section.filterFeed > * {
     display: grid;
     grid-template-columns: 1fr auto;
 }
+/* COMMENTS SECTION */
+.userSection img {
+    width: 40px;
+}
+.userSection span {
+    font-weight: lighter;
+    color: #3d3d3d;
+}
+.userSection {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+.commentsSection {
+    padding: 10px 0;
+}
+.commentsSection h3 {
+    color: #006494;
+}
+.commentsSection ul {
+    border-top: 1px #181818b9 solid;
+}
+.commentsSection ul li {
+    border-bottom: 1px #181818b9 solid;
+    padding: 10px;
+    box-shadow: 0.5px 0px 0.05em 0.05em rgba(85, 85, 85, 0.651),  -0.5px -0.5px 0.05em 0.05em rgba(85, 85, 85, 0.651) ;
+    
+}
+.comment {
+    background-color: #f9fcffec;
+    display: block;
+    border-radius: 5px;
+    padding: 15px;
+}
+.commentForm {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 10px;
+}
+.commentInput {
+    height: 1.5rem;
+    border: none;
+}
+.submitCommentButton {
+    width: 50px;
+    background-color: #1B98E0;
+    color: #f9fcffec;
+}
+
 .articleURL {
     display: grid;
     place-items: center;

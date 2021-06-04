@@ -159,7 +159,7 @@
       "picture_URL": "https://i.guim.co.uk/img/media/a3585d34a229c1c95742f40c453f93eef51ee93a/1_0_4165_2500/master/4165.jpg?width=620&quality=85&auto=format&fit=max&s=6ff2be775e6c774eb01d81ee30334663"
     },
     {
-      "id": 1,
+      "id": 4,
       "title": "‘My hairline threatened my identity so much the ground felt shaky’: why hair transplants are booming",
       "tagline": "Celebrity endorsements, new techniques and lockdown have led to rising demand for follicular transplants. But with patchy regulation, are men being exploited when they are vulnerable?",
       "content": [
@@ -194,6 +194,71 @@
       "article_URL": "https://www.theguardian.com/society/2021/jun/01/gps-urged-to-refuse-to-hand-over-patient-details-to-nhs-digital",
       "picture_URL": "https://i.guim.co.uk/img/media/ccb7a90c8438e810e69b0c4903f60283c7c7cc6a/0_237_5616_3370/master/5616.jpg?width=620&quality=85&auto=format&fit=max&s=5222465ef8d70ada7aa1e120fd10c419",
       "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "publishedId": 1,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 2,
+      "publishedId": 1,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 3,
+      "publishedId": 1,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 4,
+      "publishedId": 2,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 5,
+      "publishedId": 2,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 6,
+      "publishedId": 3,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 7,
+      "publishedId": 3,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 8,
+      "publishedId": 4,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+    },
+    {
+      "id": 9,
+      "publishedId": 4,
+      "username": "billyBoyBlue",
+      "comment": "Surprising! I never thought about that.",
+      "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
     }
   ]
 }

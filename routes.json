@@ -1,0 +1,4 @@
+{
+    "/published" : "/published?_embed=comments",
+    "/published/:id" :"/published/:id?_embed=comments"
+}

@@ -50,6 +50,7 @@ function getFeedArticlesFromServer() {
         })
         .then(function (data) {
             state.published = data
+            console.log(state.published)
             return data
         })
 }
@@ -135,7 +136,6 @@ function renderFeedArticles() {
     mainContent.append(feedContainerEl)
 }
 function renderFeedArticle(article) {
-    console.log(article)
     const articleEl = createEl("article")
     articleEl.setAttribute("class", "article")
 
@@ -181,7 +181,10 @@ function renderFeedArticle(article) {
         let articleContent = document.createElement('p')
         articleContent.innerText = fullContent
 
-        mainContent.append(backBtn, title, articleInfoEl, articleContent)
+        //COMMENTS SECTION
+        let commentsSectionEl = renderComments(article)
+        mainContent.append( title, articleInfoEl, articleContent, backBtn,commentsSectionEl)
+        
     })
 
     articleContentContainerEl.append(articleTitleEl, articleInfoEl, seeMoreBtn)
@@ -190,7 +193,96 @@ function renderFeedArticle(article) {
     return articleEl
 
 }
+function renderComments(article) {
+    const commentsSectionEl = createEl("div")
+    commentsSectionEl.setAttribute("class", "commentsSection")
 
+    const listEl = createEl("ul")
+
+    const commentsSectionTitle = createEl("h3")
+    commentsSectionTitle.innerText = "Comments"
+
+    function renderComments(article) {
+        for(commentObj of article.comments) {
+            const listItemEl = createEl("li")
+            
+            const userSectionEl = createEl("div")
+            userSectionEl.setAttribute("class", "userSection")
+            const userImageEl = createEl("img")
+            userImageEl.setAttribute("src", commentObj.profilePicURL)
+            userImageEl.setAttribute("alt", "user profile picture")
+            const usernameEl = createEl("span")
+            usernameEl.innerText = commentObj.username
+    
+            const commentEl = createEl("span")
+            commentEl.setAttribute("class", "comment")
+            commentEl.innerText = commentObj.comment
+    
+            userSectionEl.append(userImageEl, usernameEl)
+            listItemEl.append(userSectionEl, commentEl)
+            listEl.append(listItemEl)
+        }
+    }
+    renderComments(article)
+
+    const commentFormEl = createEl("form")
+    commentFormEl.setAttribute("class", "commentForm")
+
+    const commentFormInputEl = createEl("input")
+    commentFormInputEl.setAttribute("type", "text")
+    commentFormInputEl.setAttribute("class", "commentInput")
+    commentFormInputEl.setAttribute("placeholder", "Add a comment...")
+
+    const commentPostButtonEl = createEl("button")
+    commentPostButtonEl.setAttribute("type", "submit")
+    commentPostButtonEl.setAttribute("class", "submitCommentButton")
+    commentPostButtonEl.innerText = "Post"
+
+    commentFormEl.addEventListener("submit", function (event) {
+        event.preventDefault()
+
+        commentToAdd = {
+            "publishedId": article.id,
+            "username": "Me",
+            "comment": commentFormInputEl.value,
+            "profilePicURL": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+        }
+
+        fetch(`http://localhost:3000/comments`, {
+            method: "POST",
+            headers: {
+                "Content-Type" : "application/json"
+            },
+            body: JSON.stringify(commentToAdd)
+        })
+        .then(function (response) {
+            if(response.ok) {
+                getFeedArticlesFromServer()
+                .then(function (params) {
+                    console.log(state.published)
+                    commentFormInputEl.value = ""
+                })
+                .then(function () {
+                    listEl.innerHTML = ""
+                    let articleId = article.id
+                    console.log(state.published[articleId - 1])
+                    renderComments(state.published[articleId - 1])
+                })
+            }
+            else {
+                alert("Error")
+            }
+        })
+        
+    })
+
+    commentFormEl.append(commentFormInputEl, commentPostButtonEl)
+
+    commentsSectionEl.append(commentsSectionTitle, listEl, commentFormEl)
+
+    return commentsSectionEl
+    
+}
 
 function renderEditorialBoard() {
     console.log(state.toBePublished)
@@ -242,52 +334,7 @@ function deleteproposedArticle() {
         .then(res => console.log(res))
 }
 
-function listentoAddBtn() {
-    mainContent.innerText = ""
-    let container = document.createElement('form')
-    container.setAttribute("class", "editContainer")
 
-    let title = document.createElement('h2')
-    title.innerText = "EDIT"
-
-    let titleLabel = document.createElement('label')
-    titleLabel.innerText = "Title"
-    titleLabel.setAttribute("for", "titleInput")
-
-    let titleInput = document.createElement('input')
-    titleInput.setAttribute("class", "titleInput")
-
-    let articleLabel = document.createElement('label')
-    articleLabel.innerText = "Article"
-
-    let textArea = document.createElement('textarea')
-    textArea.setAttribute("rows", "25")
-
-    let deleteBtn = document.createElement('button')
-    deleteBtn.setAttribute("class", "deleteArticleBtn")
-    deleteBtn.innerText = "Delete"
-
-    deleteBtn.addEventListener("click", function () {
-        deleteproposedArticle()
-    })
-
-    let publishBtn = document.createElement('button')
-    publishBtn.setAttribute("class", "publishArticleBtn")
-    publishBtn.innerText = "Publish"
-
-    publishBtn.addEventListener("click", function () {
-        addtoPublishedArticles()
-    })
-
-    mainContent.append(container, deleteBtn, publishBtn)
-    container.append(title, titleLabel, titleInput, articleLabel, textArea)
-
-
-
-    console.log(state.selectedArticle.content)
-    container.append(textArea)
-
-}
 
 function listenToEditBtn() {
     mainContent.innerText = ""
@@ -358,15 +405,12 @@ function addtoPublishedArticles() {
     })
 }
 
-
-
 function getArticleTitles() {
     return fetch(`http://localhost:3000/toBePushlished`)
         .then(function (response) {
             return response.json()
         }).then(function (titles) {
             state.toBePublished = titles
-            console.log(state.toBePublished)
             renderEditorialBoard()
         })
 }
