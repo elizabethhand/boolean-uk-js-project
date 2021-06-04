@@ -6,9 +6,10 @@
     list-style: none;
     
 }
+::-webkit-scrollbar {
+    display: none;
+}
 body {
-    display: grid;
-    grid-template-rows: 200px 1fr;
     max-height: 100vh;
 }
 main {
@@ -16,6 +17,8 @@ main {
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
+    width: calc(100vwx);
+    height: calc(100vh - 200px);
 }
 
 header {
@@ -23,7 +26,6 @@ header {
     grid-template-columns: auto 1fr;
     gap: 5px;
     padding: 10px;
-    height: 200px;
 }
 .logoContainer {
     display: grid;
@@ -34,6 +36,7 @@ header {
 }
 .editorialBoard {
     background-color: #1B98E0;
+    width: calc(100vw - 230px);
 }
 .editorialBoard .title{
     display:grid;
@@ -43,11 +46,12 @@ header {
 }
 .edit-tiles {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 170px);
+    grid-auto-flow: column;
+    width: 100%;
     grid-gap: 10px;
     padding: 10px;
-
     font-size:12px;
+    overflow-x: scroll;
 }
 
 .edit-tile h3{
@@ -109,6 +113,7 @@ header {
     place-content: center;
     background-color: #E8F1F2;
     padding: 10px;
+    width: 200px;
 }
 .filterFeed {
     width: 230px;
@@ -135,7 +140,8 @@ section.filterFeed > * {
 .mainContent {
     background-color: #E8F1F2;
     padding: 10px;
-    height:500px
+    height:100%;
+    overflow: scroll;
 }
 .feedContainer > * {
     padding: 20px 0;
